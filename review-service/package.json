@@ -1,0 +1,22 @@
+{
+  "name": "review-service",
+  "version": "0.0.1",
+  "description": "Review Service",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.1",
+    "mongoose": "^8.2.3"
+  },
+  "author": "Yiğit Gülay <yigitgulay11@outlook.com>",
+  "license": "MIT"
+}
